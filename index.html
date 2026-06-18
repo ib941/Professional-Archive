@@ -2,83 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim | Archive</title>
     <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-        .main-box {
-            text-align: center;
-            border: 1px solid #333;
-            padding: 40px;
-            border-radius: 12px;
-            background: #1a1a1a;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            max-width: 500px;
-            width: 100%;
-        }
-        h1 { color: #00adb5; margin-bottom: 20px; }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #00adb5;
-            color: #121212;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover { background-color: #ffffff; }
-        .projects-container {
-            margin-top: 50px;
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-            max-width: 800px;
-        }
-        .card {
-            background: #1a1a1a;
-            padding: 20px;
-            border: 1px solid #333;
-            border-radius: 8px;
-            text-align: center;
-            width: 200px;
-        }
+        body { background-color: #121212; color: #ffffff; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .main-box { text-align: center; border: 1px solid #333; padding: 40px; border-radius: 12px; background: #1a1a1a; max-width: 500px; width: 100%; }
+        h1 { color: #00adb5; }
+        .btn { display: inline-block; margin-top: 20px; padding: 12px 24px; background-color: #00adb5; color: #121212; text-decoration: none; font-weight: bold; border-radius: 5px; }
+        .projects-container { margin-top: 50px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .card { background: #1a1a1a; padding: 20px; border: 1px solid #333; border-radius: 8px; text-align: center; width: 200px; color: white; text-decoration: none; transition: 0.3s; }
+        .card:hover { border-color: #00adb5; }
     </style>
 </head>
 <body>
-
     <div class="main-box">
         <h1>Ibrahim | Archive</h1>
         <p>Professional Work & Technical Portfolio</p>
         <a href="https://ibrahim-solutions-center.streamlit.app/" class="btn">VISIT SOLUTIONS CENTER</a>
     </div>
-
     <div class="projects-container">
-        <div class="card">
-            <h3>Photography</h3>
-            <p style="color: #888;">Product & Commercial</p>
-        </div>
-        <div class="card">
-            <h3>E-Commerce</h3>
-            <p style="color: #888;">Salla Store Builds</p>
-        </div>
-        <div class="card">
-            <h3>Creative Code</h3>
-            <p style="color: #888;">AI & Scripts</p>
-        </div>
+        <a href="photography.html" class="card"><h3>Photography</h3><p style="color: #888;">Product & Commercial</p></a>
+        <a href="ecommerce.html" class="card"><h3>E-Commerce</h3><p style="color: #888;">Salla Store Builds</p></a>
+        <a href="coding.html" class="card"><h3>Creative Code</h3><p style="color: #888;">AI & Scripts</p></a>
     </div>
-
 </body>
 </html>
